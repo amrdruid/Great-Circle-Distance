@@ -23,8 +23,8 @@ describe Services::FileParser do
 
     before(:all) do
       @data = [{ "latitude": '1', "user_id": 1, "name": 'Christina McArdle', "longitude": '1' },
-               { "latitude": '2', "user_id": 1, "name": 'Alice Cahill', "longitude": '2' },
-               { "latitude": '3', "user_id": 2, "name": 'Stephen McArdle', "longitude": '3' }]
+               { "latitude": '2', "user_id": 2, "name": 'Alice Cahill', "longitude": '2' },
+               { "latitude": '3', "user_id": 3, "name": 'Stephen McArdle', "longitude": '3' }]
     end
 
     after(:all) do

@@ -7,10 +7,12 @@ module Services
           .map { |customer| JSON.parse(customer) }
     end
 
-    def self.create_valid_customers_file(customers, path = 'lib/data/output.txt')
+    def self.create_valid_customers_file(customers, path)
       File.open(path, 'w') do |f|
         customers.each do |customer|
-          f.puts customer.to_json
+          name = customer['name'] || customer[:name]
+          user_id = customer['user_id'] || customer[:user_id]
+          f.puts "#{name} - #{user_id}"
         end
       end
     end
