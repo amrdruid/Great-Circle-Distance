@@ -14,13 +14,13 @@ rbenv: https://github.com/rbenv/rbenv
 
 ### This project uses ruby 2.6.3, to install and use it via rvm: 
 
-$ rvm install 2.6.3
-$ rvm use 2.6.3
+`$ rvm install 2.6.3`
+`$ rvm use 2.6.3`
 
 via rbenv: 
 
-$ rbenv install 2.6.3
-$ rbenv use 2.6.3
+`$ rbenv install 2.6.3`
+`$ rbenv use 2.6.3`
 
 ### Download & unzip the project and move to the project directory: 
 
@@ -28,8 +28,8 @@ $ cd Greate-Circle-Distance-main
 
 ### Or clone the project
 
-$ git clone git@github.com:amrdruid/Greate-Circle-Distance.git
-$ cd Greate-Circle-Distance-main
+`$ git clone git@github.com:amrdruid/Greate-Circle-Distance.git`
+`$ cd Greate-Circle-Distance-main`
 
 ### Run bundle install for the gems in the gemfile 
 
@@ -37,14 +37,14 @@ $ bundle install
 
 ### Run the rake task to generate the output for the sample file
 
-$ rake customers:generate
+`$ rake customers:generate`
 
 input file can be found in `lib/data/customers.txt`
 output file can be found in `lib/data/output.txt`
 
 ### Run the test suite
 
-$ rspec spec
+$ `rspec spec`
 
 --- 
 
@@ -52,8 +52,9 @@ $ rspec spec
 
 - We have two main files in this project: lib/services/file_parser.rb and lib/services/great_circle_distance.rb
 
-"file_parser.rb" - where the input file parsing and the generation of a new output files happen
-"great_circle_distance.rb" - where the Great Circle Distance logic lives 
+- *"file_parser.rb"* - where the input file parsing and the generation of a new output files happen
+
+-  *"great_circle_distance.rb"* - where the Great Circle Distance logic lives 
 
 - Project is generated as an api as no views would be required
 
