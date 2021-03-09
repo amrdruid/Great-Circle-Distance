@@ -26,13 +26,13 @@ via rbenv:
 
 ### Download & unzip the project and move to the project directory: 
 
-`$ cd Greate-Circle-Distance-main`
+`$ cd Great-Circle-Distance-main`
 
 ### Or clone the project
 
-`$ git clone git@github.com:amrdruid/Greate-Circle-Distance.git`
+`$ git clone git@github.com:amrdruid/Great-Circle-Distance.git`
 
-`$ cd Greate-Circle-Distance-main`
+`$ cd Great-Circle-Distance-main`
 
 ### Run bundle install for the gems in the gemfile 
 
