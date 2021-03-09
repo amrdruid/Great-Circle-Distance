@@ -15,11 +15,13 @@ rbenv: https://github.com/rbenv/rbenv
 ### This project uses ruby 2.6.3, to install and use it via rvm: 
 
 `$ rvm install 2.6.3`
+
 `$ rvm use 2.6.3`
 
 via rbenv: 
 
 `$ rbenv install 2.6.3`
+
 `$ rbenv use 2.6.3`
 
 ### Download & unzip the project and move to the project directory: 
@@ -29,6 +31,7 @@ $ cd Greate-Circle-Distance-main
 ### Or clone the project
 
 `$ git clone git@github.com:amrdruid/Greate-Circle-Distance.git`
+
 `$ cd Greate-Circle-Distance-main`
 
 ### Run bundle install for the gems in the gemfile 
@@ -40,6 +43,7 @@ $ bundle install
 `$ rake customers:generate`
 
 input file can be found in `lib/data/customers.txt`
+
 output file can be found in `lib/data/output.txt`
 
 ### Run the test suite
