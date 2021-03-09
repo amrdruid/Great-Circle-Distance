@@ -26,7 +26,7 @@ via rbenv:
 
 ### Download & unzip the project and move to the project directory: 
 
-$ cd Greate-Circle-Distance-main
+`$ cd Greate-Circle-Distance-main`
 
 ### Or clone the project
 
@@ -36,15 +36,15 @@ $ cd Greate-Circle-Distance-main
 
 ### Run bundle install for the gems in the gemfile 
 
-$ bundle install
+`$ bundle install`
 
 ### Run the rake task to generate the output for the sample file
 
 `$ rake customers:generate`
 
-input file can be found in `lib/data/customers.txt`
+input file can be found in "lib/data/customers.txt"
 
-output file can be found in `lib/data/output.txt`
+output file can be found in "lib/data/output.txt"
 
 ### Run the test suite
 
